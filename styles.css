@@ -13,7 +13,7 @@ body{
 @media (max-width: 768px){
   body{
     margin: 0 auto;
-    width: 95%;
+    width: 95vw;
     align-items: center;
   }
 }
