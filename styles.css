@@ -211,22 +211,22 @@ li{
   max-width: 300px;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.9);
 }
-@media screen and (max-width: 768px){
-  #section-1 {
-  flex-direction: column !important;
-  align-items: center;
+@media screen and (max-width: 768px) {
+  .section-1 {
+    flex-direction: column !important; 
+    align-items: center;
+    justify-content: center;
   }
-  .bio {
-  width: 90% !important;
+  .bio, .profile-picture {
+    width: 90% !important;
+    margin: 10px 0; 
   }
-  .profile-picture{
-  width: 90% !important;
-  }
-  
-  .bio h1{
-  font-size: 60px;
+
+  .bio h1 {
+    font-size: 60px;
   }
 }
+
 
 
 /* SECTION 2: PHOTOGRAPHY, BEGINS */
