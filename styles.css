@@ -154,7 +154,7 @@ li{
   border: 10px solid rgb(50, 10, 50);
   box-sizing: border-box;
   z-index: 1;
-  min-width: 500px;
+  min-width: 400px;
   margin-bottom: 5px;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.9);
   transition: transform 0.2s ease;
