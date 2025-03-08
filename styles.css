@@ -220,6 +220,11 @@ li{
   display: block;
   width: 90%;
   }
+  .profile-picture{
+  display: block;
+  width: 90%;
+  }
+  
   .bio h1{
   font-size: 60px;
   }
