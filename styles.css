@@ -212,16 +212,27 @@ li{
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.9);
 }
 @media screen and (max-width: 768px) {
+  /* Make the main section a column layout */
   .section-1 {
-    flex-direction: column !important; 
+    flex-direction: column !important; /* Stacks the items vertically */
     align-items: center;
-    justify-content: center;
-  }
-  .bio, .profile-picture {
-    width: 90% !important;
-    margin: 10px 0; 
+    justify-content: center; /* Centers them vertically and horizontally */
   }
 
+  /* Adjust the layout of the welcome section so that it also stacks */
+  #welcome-section {
+    flex-direction: column; /* Stack bio and profile picture vertically */
+    align-items: center; /* Center them horizontally */
+    margin: 20px 0; /* Optional: add some margin to space out the stacked items */
+  }
+
+  /* Ensure bio and profile picture take up a more mobile-friendly width */
+  .bio, .profile-picture {
+    width: 90%; /* Makes the boxes take up 90% of the width */
+    margin: 10px 0; /* Adds some space between the boxes */
+  }
+
+  /* Ensure the text size adjusts properly for the bio */
   .bio h1 {
     font-size: 60px;
   }
