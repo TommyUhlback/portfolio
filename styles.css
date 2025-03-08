@@ -210,7 +210,17 @@ li{
   max-width: 300px;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.9);
 }
-
+@media screen and (max-width: 768px){
+  #section-1{
+  flex-direction: column
+  }
+  .bio {
+  width: 90%;
+  }
+  .bio h1{
+  font-size: 50px;
+  }
+}
 
 
 /* SECTION 2: PHOTOGRAPHY, BEGINS */
