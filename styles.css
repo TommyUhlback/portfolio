@@ -213,14 +213,14 @@ li{
 }
 @media screen and (max-width: 768px){
   #section-1 {
-  flex-direction: column;
+  flex-direction: column !important;
   align-items: center;
   }
   .bio {
-  width: 90%;
+  width: 90% !important;
   }
   .profile-picture{
-  width: 90%;
+  width: 90% !important;
   }
   
   .bio h1{
