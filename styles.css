@@ -211,33 +211,33 @@ li{
   max-width: 300px;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.9);
 }
+/* Responsive Styles */
 @media screen and (max-width: 768px) {
-  /* Make the main section a column layout */
+  /* Make the section-1 a column layout */
   .section-1 {
     flex-direction: column !important; /* Stacks the items vertically */
     align-items: center;
     justify-content: center; /* Centers them vertically and horizontally */
   }
 
-  /* Adjust the layout of the welcome section so that it also stacks */
+  /* Stack items in the welcome section */
   #welcome-section {
     flex-direction: column; /* Stack bio and profile picture vertically */
     align-items: center; /* Center them horizontally */
     margin: 20px 0; /* Optional: add some margin to space out the stacked items */
   }
 
-  /* Ensure bio and profile picture take up a more mobile-friendly width */
+  /* Bio and profile picture should take up 90% width on mobile */
   .bio, .profile-picture {
-    width: 90%; /* Makes the boxes take up 90% of the width */
-    margin: 10px 0; /* Adds some space between the boxes */
+    width: 90%; /* Takes up 90% of the available width */
+    margin: 10px 0; /* Adds some space between the stacked boxes */
   }
 
-  /* Ensure the text size adjusts properly for the bio */
+  /* Adjust the text size for the bio */
   .bio h1 {
-    font-size: 60px;
+    font-size: 60px; /* Make the text smaller for mobile screens */
   }
 }
-
 
 
 /* SECTION 2: PHOTOGRAPHY, BEGINS */
