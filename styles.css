@@ -214,9 +214,10 @@ li{
 @media screen and (max-width: 768px){
   #section-1 {
   flex-direction: column;
-    align-items: center;
+  align-items: center;
   }
   .bio {
+  display: block;
   width: 90%;
   }
   .bio h1{
