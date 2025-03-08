@@ -230,8 +230,6 @@ li{
     .profile-picture img{
       max-width: 200px;
     }
-}
-@media (max-width: 768px){
   h1, h2{
     font-size: 50px;
   }
@@ -381,10 +379,13 @@ iframe{
   #image-grid2{
     grid-template-columns: 1fr;
   }
+  #bsposter{
+    max-width: 100vh;
 }
 #bsposter{
   max-width: 600px;
 }
+
 
 
 /* /* CONTACT SECTION BEGINS  */
