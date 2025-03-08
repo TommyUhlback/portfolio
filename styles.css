@@ -237,6 +237,9 @@ li{
   .bio h1 {
     font-size: 60px; /* Make the text smaller for mobile screens */
   }
+  .bio {
+    margin-top: 200px;
+  }
 }
 
 
@@ -244,7 +247,7 @@ li{
 
 @media screen and (max-width: 768px) {
   .section-2 {
-    margin-top: 100px;
+    margin-top: 200px;
   }
 #section-2 {
   height: 100%;
