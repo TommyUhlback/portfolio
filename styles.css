@@ -12,10 +12,11 @@ body{
 }
 @media (max-width: 768px){
   body{
-    margin: 0 auto;
-    width: 95vw;
-    max-width: 100%
+    display: flex;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
   }
 }
 
