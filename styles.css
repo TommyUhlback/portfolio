@@ -242,7 +242,10 @@ li{
 
 /* SECTION 2: PHOTOGRAPHY, BEGINS */
 
-
+@media screen and (max-width: 768px) {
+  .section-2 {
+    margin-top: 100px;
+  }
 #section-2 {
   height: 100%;
   padding: 20px;
