@@ -214,6 +214,7 @@ li{
   #welcome-section{
     flex-direction: column;
     text-align: center;
+    width: 500px;
   }
   .section-1{
     height: 150vh;
