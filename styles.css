@@ -10,19 +10,7 @@ body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width: 768px){
-  body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    }
-  .bio{
-    text-align: left;
-    width: 100vw;
-    }
-}
+
 
 #logo{
   margin-right: auto;
@@ -222,25 +210,7 @@ li{
   max-width: 300px;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.9);
 }
-@media (max-width: 768px){
-  #welcome-section{
-    flex-direction: column;
-    text-align: center;
-    margin-top: 30px;
-  }
-  .section-1{
-    height: 150vh;
-  }
-  .bio, .profile-picture{
-    width: 95%;
-  }
-    .profile-picture img{
-      max-width: 200px;
-    }
-  h1, h2{
-    font-size: 50px;
-  }
-}
+
 
 
 /* SECTION 2: PHOTOGRAPHY, BEGINS */
