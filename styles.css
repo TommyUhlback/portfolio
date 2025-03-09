@@ -474,6 +474,11 @@ button{
   margin-top: 10px;
   margin-bottom: 50px;
 }
+@media (max-width: 768px) {
+  #button-section button{
+    scale: 150%;
+  } 
+}
 
 
 /* FOOTER SECTION BEGINS */
