@@ -477,6 +477,7 @@ button{
 @media (max-width: 768px) {
   #button-section button{
     scale: 150%;
+    border: 0;
   } 
 }
 
