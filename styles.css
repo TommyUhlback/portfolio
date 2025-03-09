@@ -113,6 +113,8 @@ li{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  padding-top: 120px;
 }
 .section-1::before{
   content: "";
@@ -217,9 +219,13 @@ li{
   }
   .section-1{
     height: 150vh;
+    flex-direction: column;
+    padding-top: 120px;
   }
   .bio, .profile-picture{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
     .profile-picture img{
       max-width: 200px;
