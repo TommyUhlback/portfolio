@@ -567,10 +567,17 @@ footer{
   .desc1{
     width: 90%;
     margin: 0 auto;
-    padding: 40px;
+    padding: 30px;
+    margin-top: 150px;
   }
   .desc1 h2{
-      font-size: 57px;
+      font-size: 40px;
+    }
+    .desc1 h3{
+      font-size: 18px;
+    }
+    .desc1 p{
+      font-size: 15px;
     }
 }
 .vid{
